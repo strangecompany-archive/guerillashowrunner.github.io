@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Off Site Clicks on Guerilla Showrunner</title>
+    <link>http://www.guerillashowrunner.com/tags/off-site-clicks/index.xml</link>
+    <description>Recent content in Off Site Clicks on Guerilla Showrunner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://www.guerillashowrunner.com/tags/off-site-clicks/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A quick tip - how to track clicks off-site with Google Analytics</title>
+      <link>http://www.guerillashowrunner.com/2011/05/a-quick-tip-how-to-track-clicks-off-site-with-google-analytics/</link>
+      <pubDate>Fri, 13 May 2011 09:48:10 +0000</pubDate>
+      
+      <guid>http://www.guerillashowrunner.com/2011/05/a-quick-tip-how-to-track-clicks-off-site-with-google-analytics/</guid>
+      <description>&lt;p&gt;No lengthy post this week, because I&amp;rsquo;m travelling - just a quick tip. There seem to be loads of times when you want to be able to track how many people LEAVE your site - whether it&amp;rsquo;s to a Feedburner RSS feed, an email list, or an affiliate product. So how do you track clicks off-site with Analytics?&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s actually surprisingly easy. Assuming you&amp;rsquo;re using the latest tracking code (see &lt;a href=&#34;http://www.google.com/support/analytics/bin/answer.py?answer=75129&#34;&gt;Google&amp;rsquo;s guide to how to tell which version you&amp;rsquo;re using&lt;/a&gt;), you just need to add a bit of code to any link you want to check.&lt;/p&gt;
+
+&lt;p&gt;After the &amp;ldquo;a&amp;rdquo; in your link, add the following code:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;onclick=&amp;quot;javascript: _gaq.push([&#39;_trackPageview&#39;,&#39;/goal/feed/about&#39;]);&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can replace &amp;ldquo;/goal/feed/about/&amp;rdquo; with anything you like - it&amp;rsquo;s a fake website path that Google will record, so use whatever&amp;rsquo;s easy to remember. I tend to be using this functionality to track conversions of some kind on a page, so I use &amp;ldquo;goal&amp;rdquo; followed by the goal, followed by where it came from.&lt;/p&gt;
+
+&lt;p&gt;So, the end code should look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;a onclick=&amp;quot;javascript: _gaq.push([&#39;_trackPageview&#39;,&#39;/goal/feed/about&#39;]);&amp;quot; href=&amp;quot;http://www.feedburner.com/somefeed&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And your fake URL will just start showing up in Analytics - after about 2 hours, in my experience.&lt;/p&gt;
+
+&lt;p&gt;So now you can track which of your posts get you the most subscribers, or where an affiliate link is best placed to make you money, or any number of other uses. Enjoy!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

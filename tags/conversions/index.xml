@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conversions on Guerilla Showrunner</title>
+    <link>http://www.guerillashowrunner.com/tags/conversions/index.xml</link>
+    <description>Recent content in Conversions on Guerilla Showrunner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://www.guerillashowrunner.com/tags/conversions/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>A quick tip - how to track clicks off-site with Google Analytics</title>
+      <link>http://www.guerillashowrunner.com/2011/05/a-quick-tip-how-to-track-clicks-off-site-with-google-analytics/</link>
+      <pubDate>Fri, 13 May 2011 09:48:10 +0000</pubDate>
+      
+      <guid>http://www.guerillashowrunner.com/2011/05/a-quick-tip-how-to-track-clicks-off-site-with-google-analytics/</guid>
+      <description>&lt;p&gt;No lengthy post this week, because I&amp;rsquo;m travelling - just a quick tip. There seem to be loads of times when you want to be able to track how many people LEAVE your site - whether it&amp;rsquo;s to a Feedburner RSS feed, an email list, or an affiliate product. So how do you track clicks off-site with Analytics?&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s actually surprisingly easy. Assuming you&amp;rsquo;re using the latest tracking code (see &lt;a href=&#34;http://www.google.com/support/analytics/bin/answer.py?answer=75129&#34;&gt;Google&amp;rsquo;s guide to how to tell which version you&amp;rsquo;re using&lt;/a&gt;), you just need to add a bit of code to any link you want to check.&lt;/p&gt;
+
+&lt;p&gt;After the &amp;ldquo;a&amp;rdquo; in your link, add the following code:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;onclick=&amp;quot;javascript: _gaq.push([&#39;_trackPageview&#39;,&#39;/goal/feed/about&#39;]);&amp;quot;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;You can replace &amp;ldquo;/goal/feed/about/&amp;rdquo; with anything you like - it&amp;rsquo;s a fake website path that Google will record, so use whatever&amp;rsquo;s easy to remember. I tend to be using this functionality to track conversions of some kind on a page, so I use &amp;ldquo;goal&amp;rdquo; followed by the goal, followed by where it came from.&lt;/p&gt;
+
+&lt;p&gt;So, the end code should look like this:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;a onclick=&amp;quot;javascript: _gaq.push([&#39;_trackPageview&#39;,&#39;/goal/feed/about&#39;]);&amp;quot; href=&amp;quot;http://www.feedburner.com/somefeed&amp;quot;&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;And your fake URL will just start showing up in Analytics - after about 2 hours, in my experience.&lt;/p&gt;
+
+&lt;p&gt;So now you can track which of your posts get you the most subscribers, or where an affiliate link is best placed to make you money, or any number of other uses. Enjoy!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>WTF is a funnel?</title>
+      <link>http://www.guerillashowrunner.com/2010/11/wtf-is-a-funnel/</link>
+      <pubDate>Tue, 30 Nov 2010 13:52:34 +0000</pubDate>
+      
+      <guid>http://www.guerillashowrunner.com/2010/11/wtf-is-a-funnel/</guid>
+      <description>&lt;p&gt;If you don&amp;rsquo;t know what a funnel is, you&amp;rsquo;re probably losing out on viewers.&lt;/p&gt;
+
+&lt;p&gt;One of the wierd things about working on the Internet over the last 10 years has been that whilst we&amp;rsquo;re starting to understand what the yellow-eyed fuck we&amp;rsquo;re doing, we don&amp;rsquo;t yet have words for most of that stuff.&lt;/p&gt;
+
+&lt;p&gt;And so - and I can speak from personal experience on this one, having been the guy largely responsible for &amp;ldquo;Machinima&amp;rdquo; as a term - one of the most useful things some of the really cool thinkers on the Internet are doing is giving words to concepts that make us money. Because until you&amp;rsquo;ve got words, it&amp;rsquo;s very hard to talk about making that thingy, you know, the thing, better.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Hence, funnel.&lt;/p&gt;
+
+&lt;p&gt;Funnels are all about how you get other people from where they start out to where they&amp;rsquo;ve given you the thing you want - in geeky, tiny detail.&lt;/p&gt;
+
+&lt;h3 id=&#34;making-the-funnel-of-your-show&#34;&gt;Making The Funnel Of Your Show&lt;/h3&gt;
+
+&lt;p&gt;Let&amp;rsquo;s look at your web series. What&amp;rsquo;s the thing you want?&lt;/p&gt;
+
+&lt;p&gt;You want fans. Let&amp;rsquo;s be honest, that&amp;rsquo;s what we all want, whether it&amp;rsquo;s because they will give us the fat dosh, or just because they&amp;rsquo;ll leave nice comments and angst about your characters&amp;rsquo; love lives.&lt;/p&gt;
+
+&lt;p&gt;(How many fans is a different question, of course. That goals post really is coming soon).&lt;/p&gt;
+
+&lt;p&gt;Now, how do you get them?&lt;/p&gt;
+
+&lt;p&gt;Well, if you&amp;rsquo;re doing at all well, most people start out having never heard of your show. Then, they hear about it somewhere, click through, probably to YouTube. They like what they see. They click to somewhere where they can sign up to get regular updates, and - bingo, fan.&lt;/p&gt;
+
+&lt;p&gt;That, ladies, gentlemen, and those who are yet to make up your mind, is your funnel.&lt;/p&gt;
+
+&lt;p&gt;Look, look, an infographic!&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://guerillashowrunner.com/wp-content/uploads/2010/11/Funnel.jpg&#34;&gt;&lt;img src=&#34;http://guerillashowrunner.com/wp-content/uploads/2010/11/Funnel.jpg&#34; alt=&#34;The Funnel Is Fun&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Those are all your steps. Someone who&amp;rsquo;s a fan has come in at the top, and has gone through each of them in turn, and hasn&amp;rsquo;t been put off. And that&amp;rsquo;s the difference between the 200,000 people who theoretically saw your mention on Reddit, and the 150 people who are still regularly watching on Episode 15: the other 199,850 dropped out at some point during your funnel.&lt;/p&gt;
+
+&lt;p&gt;Maybe 5% of the people who saw the Reddit headline clicked. Maybe 3% of those people subscribed to your YouTube channel. Maybe 20% of those checked out the next episode. And so on. And that&amp;rsquo;s how you got 150 fans.&lt;/p&gt;
+
+&lt;p&gt;And here&amp;rsquo;s the magic bit.&lt;/p&gt;
+
+&lt;h3 id=&#34;the-magic-bit&#34;&gt;The Magic Bit&lt;/h3&gt;
+
+&lt;p&gt;If you can improve &lt;strong&gt;one of those funnel stages&lt;/strong&gt; - any one - you&amp;rsquo;re going to get more fans at the end.&lt;/p&gt;
+
+&lt;p&gt;Rather than looking at &amp;ldquo;How do we get more fans?&amp;rdquo; or &amp;ldquo;If we&amp;rsquo;re funnier we will get more fans&amp;rdquo;, you can take a real hard look at how your fans go from &amp;ldquo;watching on YouTube&amp;rdquo; to &amp;ldquo;watching the next episode&amp;rdquo;, for example. And you can craft a little mini-funnel for that:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Arrive on YouTube
+v
+Don&amp;rsquo;t click away in first 30 seconds.
+v
+Get to the end of the episode
+v
+click through to your channel page
+v
+click the subscribe button
+v
+Notice and care about the &amp;ldquo;next episode&amp;rdquo; mail YouTube sends out
+v
+click through on that link&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Now, you look at each sub-element on the list.&lt;/p&gt;
+
+&lt;p&gt;How long does it take the episode to start? Maybe you could cut your credits at the front by 15 seconds?&lt;/p&gt;
+
+&lt;p&gt;Have a &amp;ldquo;highlights&amp;rdquo; reel at the front?&lt;/p&gt;
+
+&lt;p&gt;Maybe they&amp;rsquo;re getting through the first 30 seconds, but dropping out after that? (YouTube Insights can tell you that.) Try a tighter-edited version and see how that works out.&lt;/p&gt;
+
+&lt;p&gt;Maybe they&amp;rsquo;re getting through to the end of the episode, but then they can&amp;rsquo;t easily figure out how to subscribe? Add a big-ass annotation.&lt;/p&gt;
+
+&lt;p&gt;And here&amp;rsquo;s the beauty of the entire process: if all you do is add an annotation to the end of the video, and that makes people who get to the end 50% more likely to subscribe to your YT channel, and everything else stays the same&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ve just gone from 150 fans to 225 fans in 5 minutes.&lt;/p&gt;
+
+&lt;p&gt;All by sitting there and looking very, very carefully at your funnel. Now, if you can find another three things that you can easily increase by 50%&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Go optimise your funnel.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s not a euphemism.&lt;/p&gt;
+
+&lt;p&gt;_Are you all excited about your funnel now? Fnar. For more posts that combine guerilla showrunning tips with things that sound kinda dirty (and that super-helpful &amp;ldquo;goals for your show&amp;rdquo; post), add &lt;a href=&#34;http://feeds.feedburner.com/GuerillaShowrunner&#34;&gt;our RSS feed&lt;/a&gt; to your feed reader to get &amp;lsquo;em fired straight at you. _&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

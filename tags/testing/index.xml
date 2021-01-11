@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Testing on Guerilla Showrunner</title>
+    <link>http://www.guerillashowrunner.com/tags/testing/index.xml</link>
+    <description>Recent content in Testing on Guerilla Showrunner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://www.guerillashowrunner.com/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>How to make sure your web series site can handle Digg&#39;s traffic (and Reddit&#39;s, and the New York Times&#39;s...) </title>
+      <link>http://www.guerillashowrunner.com/2011/04/how-to-make-sure-your-web-series-site-is-digg-proof-and-reddit-proof-and-new-york-times-proof/</link>
+      <pubDate>Wed, 20 Apr 2011 15:55:12 +0000</pubDate>
+      
+      <guid>http://www.guerillashowrunner.com/2011/04/how-to-make-sure-your-web-series-site-is-digg-proof-and-reddit-proof-and-new-york-times-proof/</guid>
+      <description>
+
+&lt;p&gt;Heya, and welcome to the final part in our &lt;a href=&#34;http://guerillashowrunner.com/how-to-webpage/&#34;&gt;series on creating websites for your web show or series&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This week, we&amp;rsquo;re going to be talking about running one final test - but it&amp;rsquo;s a test you really want to be sure your site can pass.&lt;/p&gt;
+
+&lt;p&gt;Hoping your series will go viral? Or pitching to sites like Digg or major press outlets? Then you need to make sure that if you get that sort of exposure your site doesn&amp;rsquo;t let you down.&lt;/p&gt;
+
+&lt;h2 id=&#34;checking-your-site-is-digg-proof&#34;&gt;Checking your site is Digg-proof&lt;/h2&gt;
+
+&lt;p&gt;Load testing - testing how well your site will cope if a whole load of people suddenly want to read it - used to be a pain in the ass if you weren&amp;rsquo;t a techie. Does &amp;ldquo;ab [ -A auth-username:password ] [ -c concurrency ] [ -C cookie-name=value ] [ -d ] [ -e csv-file ] [ -g gnuplot-file ] [ -h ] [ -H custom-header ] &amp;ldquo; sound like your idea of a fun afternoon?&lt;/p&gt;
+
+&lt;p&gt;That was a problem, because normally the first sign you&amp;rsquo;d have that your site might not be ready for a big traffic surge would be when a large site mentioned your series, and your mood went from &amp;ldquo;woohoo!&amp;rdquo; to &amp;ldquo;Oh, god&amp;rdquo; in seconds flat as your site became totally unresponsive. It happened to me in the summer of 2006 when my show &lt;a href=&#34;http://www.bloodspell.com&#34;&gt;BloodSpell&lt;/a&gt; was mentioned on the huge blog BoingBoing - five minutes later, all that could be seen of the BloodSpell website was an error message.&lt;/p&gt;
+
+&lt;p&gt;(There was a happy ending - we managed to dive into the website code and fix it before we lost too many visitors, and the site subsequently stood up under a whole load more press attention as BloodSpell became remarkably successful. But I digress.)&lt;/p&gt;
+
+&lt;p&gt;Why does a perfectly functional website suddenly go pear-shaped? Well, there are a number of reasons, and they all boil down to inefficiencies that you might not notice when the site&amp;rsquo;s not getting many visitors, but that become extremely obvious as soon as the traffic mounts up. Most notably, Wordpress websites do a LOT of database calls, and there&amp;rsquo;s only a fixed number of those that your server can handle a second. Much more traffic = many more calls = overloaded server = badness.&lt;/p&gt;
+
+&lt;p&gt;(That&amp;rsquo;s why we added a cache plugin in part 2, for those of you who have been following along.)&lt;/p&gt;
+
+&lt;p&gt;Fortunately, these days it&amp;rsquo;s easily possible to simulate a major traffic surge, thanks to the free service provided by a site called &lt;a href=&#34;http://www.loadimpact.com&#34;&gt;Load Impact&lt;/a&gt;. These guys started in the Hacker News community, and the service they provide is very cool. For free, they&amp;rsquo;ll simulate up to 50 simltaneous users hitting your site, and show you whether it holds up. (They also offer a paid service that will simulate a lot more, but unless you&amp;rsquo;ve got J J Abrams directing your series, you won&amp;rsquo;t need those sorts of numbers.)&lt;/p&gt;
+
+&lt;p&gt;Running a test with LoadImpact is simplicity itself - I recommend you start one now if you already have a website. Just open a new tab, load up the &lt;a href=&#34;http://www.loadimpact.com&#34;&gt;Load Impact website&lt;/a&gt;, type in your URL, and hit &amp;ldquo;start free test&amp;rdquo; on the next page. It may take a little while to get going, but it&amp;rsquo;ll get there.&lt;/p&gt;
+
+&lt;h2 id=&#34;what-do-the-results-of-the-test-mean&#34;&gt;What do the results of the test mean?&lt;/h2&gt;
+
+&lt;p&gt;50 concurrent users might not sound like a lot, but it&amp;rsquo;s a &lt;strong&gt;lot&lt;/strong&gt;. A few weeks ago Guerilla Showrunner was featured on the front page of Hacker News, one of the bigger traffic sources out there on the Internet right now. We had something like 10k visitors inside a day - a number that is pretty comparable in my experience to the numbers you&amp;rsquo;ll get from the front page of BoingBoing or Digg, or other major showcase sites. I&amp;rsquo;ve not been featured on Reddit, unlike the others, but I believe you&amp;rsquo;ll get about 7k from them. In short, you&amp;rsquo;re not going to get a lot more than 10k visitors from any single traffic source - unless your series becomes genuinely newsworthy for sites like the New York Times, a 10k bump in a day is about the most you&amp;rsquo;ll ever see.&lt;/p&gt;
+
+&lt;p&gt;That 10k bump works out at&amp;hellip; wait for it&amp;hellip; about 8 concurrent visitors at any one time if they&amp;rsquo;re spending about 3 minutes on your site. In order to get up to more than the 50 concurrent visitors you&amp;rsquo;re testing through LoadImpact, you&amp;rsquo;d have to either be looking at more like a 50k bump (and there are NOT a lot of places that can drive those numbers), or visitors staying for 15 minutes or more.&lt;/p&gt;
+
+&lt;p&gt;So, in other words, for most series, if your site performs fine at 50 concurrent visitors it&amp;rsquo;ll be fine for anything.&lt;/p&gt;
+
+&lt;p&gt;So, what&amp;rsquo;s a reasonable load time? &lt;a href=&#34;http://www.useit.com/papers/responsetime.html&#34;&gt;According to Jakob Neilsen&lt;/a&gt; (who has some critics, but is as good an authority for this particular metric as anyone), less than one second is optimal, and less than 10 seconds is vital. From my personal experience, I&amp;rsquo;d say that a site should load in under 5 seconds to avoid losing impatient viewers. If your LoadImpact test is showing your site as well below that benchmark, you&amp;rsquo;re golden!&lt;/p&gt;
+
+&lt;h2 id=&#34;what-if-my-site-s-not-performing&#34;&gt;What if my site&amp;rsquo;s not performing?&lt;/h2&gt;
+
+&lt;p&gt;There are a hell of a lot of reasons why a site can run slow, but here are some of the most obvious fixes you could try:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Install a cache&lt;/strong&gt; If your site has any dynamic content (content that&amp;rsquo;s being served up with code, rather than just a straight HTML site), you really need a cache - it&amp;rsquo;s a program that stores common user requests and runs them much faster than if the program was just running each of them one at a time. If you&amp;rsquo;re running Wordpress, this is pretty simple: download the plugin &lt;a href=&#34;http://wordpress.org/extend/plugins/hyper-cache/&#34;&gt;HyperCache&lt;/a&gt; and install it. If you&amp;rsquo;re running a custom site, talk to your developers - it&amp;rsquo;s very easy to add caching using both Ruby on Rails and PHP, two of the most popular coding languages for the Web.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Check your cache is running&lt;/strong&gt; This one bit me when I was putting together the test site for this series of articles. If your site seems to be running slowly, check your cache is working. For Wordpress, go to the Admin panel, then Settings, then the Hypercache tab, and check there are no error messages there. Most likely you&amp;rsquo;ll have set your file permissions wrong - when I fixed this, it reduced my load times from upward of 10 seconds to 2 seconds.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Check all the external files you&amp;rsquo;re serving.&lt;/strong&gt; Wordpress plugins are particularly good at slowing a site down if they have to load a Javascript or other file from an external site. Try disabling all your plugins except your cache, and rerunning the test - if it&amp;rsquo;s suddenly a lot faster, one of your plugins is causing the slowdown. Re-enable them one at a time. If you&amp;rsquo;re not using Wordpress, check any Javascript or image files you&amp;rsquo;re running from a site other than yours, and try temporarily removing them from your page. Suddenly speeds up? You&amp;rsquo;ve got your smoking gun.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Check you don&amp;rsquo;t have any HUUUUUUUGE files.&lt;/strong&gt; Use the online tool at &lt;a href=&#34;http://www.websiteoptimization.com/services/analyze/&#34;&gt;http://www.websiteoptimization.com/services/analyze/&lt;/a&gt; to check the size of your front page as well as a bunch of other useful info. Frankly, page size doesn&amp;rsquo;t matter as much as it used to, but if you&amp;rsquo;re north of 200kb on your page, you might want to try slimming down some big images or big Javascript files. Over 2Mb is definitely alarm bells territory - something&amp;rsquo;s far larger than it should be.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Talk to your hosts.&lt;/strong&gt; Most webhosts are more than happy to look into speed issues - frankly, if they ain&amp;rsquo;t interested when you say &amp;ldquo;erm, my site&amp;rsquo;s slower than a snail superglued to a tin of molasses&amp;rdquo;, you should look for another host. There are a lot of tweaks that they can probably implement to speed your site up - ask about your web server config in particular.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;If all else fails, prepare a simple static HTML page containing your latest episodes, contact information, and a link to your RSS feed. If you do get a traffic surge, rename that to &amp;ldquo;Index.html&amp;rdquo;, rename whatever your current index file is, and stick your new &amp;ldquo;index.html&amp;rdquo; in the main folder of your website- it&amp;rsquo;ll act as a new, simple front page and handle the load better.&lt;/p&gt;
+
+&lt;p&gt;And that&amp;rsquo;s it! Now, you either know that you can handle a Happy Event, or at least you&amp;rsquo;re on the way to figuring out what&amp;rsquo;s slowing you up!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Any other tips for making sure your site&amp;rsquo;s ready for a serious Digging? How have your sites handled major traffic in the past?&lt;/strong&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

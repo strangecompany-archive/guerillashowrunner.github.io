@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Webdesign on Guerilla Showrunner</title>
+    <link>http://www.guerillashowrunner.com/tags/webdesign/index.xml</link>
+    <description>Recent content in Webdesign on Guerilla Showrunner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://www.guerillashowrunner.com/tags/webdesign/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The Complete Guide To Setting Up Your Webseries Webpage, Part 3: Design and Designers</title>
+      <link>http://www.guerillashowrunner.com/2011/04/the-complete-guide-to-setting-up-your-webseries-webpage-part-3-design-and-designers/</link>
+      <pubDate>Wed, 13 Apr 2011 17:26:19 +0000</pubDate>
+      
+      <guid>http://www.guerillashowrunner.com/2011/04/the-complete-guide-to-setting-up-your-webseries-webpage-part-3-design-and-designers/</guid>
+      <description>&lt;p&gt;Other parts of this series : &lt;a href=&#34;http://guerillashowrunner.com/how-to-webpage/&#34;&gt;The Complete Guide to Setting Up Your Webseries Webpage&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Hello and welcome to the third part in our series on creating your webseries&amp;rsquo; webpage. (Yes, it&amp;rsquo;s a series on a webpage about making a webpage for a series. Meta, huh?)&lt;/p&gt;
+
+&lt;p&gt;This week, we&amp;rsquo;ll be looking at the final aspects of your website: setting up a design that will achieve the goals we set out in the first article, looking at customisations to Wordpress and Thesis that will let us do that, discussing whether to hire a designer (and how to get best value from them), and talking about how to tweak and develop your site so that it looks like it was professionally designed.&lt;/p&gt;
+
+&lt;p&gt;This article&amp;rsquo;s going to be going into a bit more depth than the other articles, and will be a bit more hands-on - however, it should still be skimmable.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-choose-a-design&#34;&gt;How To Choose A Design&lt;/h2&gt;
+
+&lt;p&gt;I&amp;rsquo;ve already written &lt;a href=&#34;http://guerillashowrunner.com/2011/02/why-a-good-porn-site-makes-our-web-show-pages-look-like-amateurish-crap/&#34;&gt;an article about this&lt;/a&gt;, which I&amp;rsquo;d heartily recommend reading if you get a chance. In summary, using lessons from the porn industry (which spends a lot of time and money figuring out the best way to design a site to attract visitors), I&amp;rsquo;d recommend a site with a trailer for either the entire show or the latest episode (depending on if your show is serialised) prominently visible when you arrive on the site, other episodes below that using pictures rather than text to &amp;ldquo;sell&amp;rdquo; them, a strong call to action next to the trailer at the top inviting your visitors to either subscribe or watch the full episode, a compelling description of the episode below that, and not much else on the front page.&lt;/p&gt;
+
+&lt;p&gt;Common tropes for a web series I wouldn&amp;rsquo;t recommend would include:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;News page as the front page&lt;/strong&gt;. New visitors can&amp;rsquo;t easily use your news, which is often full of production updates and similar things, to figure out what your show is about, and it means you&amp;rsquo;re not showcasing your best content up front.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Full episode on the front page&lt;/strong&gt; Full episodes don&amp;rsquo;t contain the very best bits of your show, right up front. Sell your visitors on watching your show.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;No textual information on the show&lt;/strong&gt;. With no info on what they&amp;rsquo;re about to watch, many viewers won&amp;rsquo;t even click on your trailer, or won&amp;rsquo;t stay long. It&amp;rsquo;s all about persuasion.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;No easy access to a subscription medium (email or RSS dedicated to the show)&lt;/strong&gt;. Twitter is great, but unless your twitter feed is very, very focussed, you&amp;rsquo;re risking losing readers who don&amp;rsquo;t like your other, non &amp;ldquo;new episode&amp;rdquo; twitters. Also, there&amp;rsquo;s a lot of noise on that channel. Go with a subscription medium, ideally push (email) and keep it clear of anything except episode updates.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;For the rest of this article, I&amp;rsquo;m going to be working to produce something on the Divine Bitches mold (see the article above). So, we&amp;rsquo;ll be looking at a single column layout with a navigation menu below the logo, a teaser trailer below that, and then other episodes below that. If you don&amp;rsquo;t have a strong idea of what you want to do with your website design, I&amp;rsquo;d recommend that as a good basic approach.&lt;/p&gt;
+
+&lt;p&gt;Here&amp;rsquo;s the site that I set up as a test for this article: &lt;a href=&#34;http://kamikazecookery.nfshost.com/&#34;&gt;http://kamikazecookery.nfshost.com/&lt;/a&gt; . It&amp;rsquo;s far from perfect yet, but it&amp;rsquo;s a good basic starting point, about where I&amp;rsquo;d expect to get to after the basic design setup I discuss below. I&amp;rsquo;ll discuss what you&amp;rsquo;d do to improve it in &amp;ldquo;So How Do I Make It Slicker?&amp;rdquo;, below.&lt;/p&gt;
+
+&lt;h2 id=&#34;do-you-need-to-hire-a-designer&#34;&gt;Do You Need To Hire A Designer?&lt;/h2&gt;
+
+&lt;p&gt;Do you need to hire a designer? Is that the only way to get a really great design?&lt;/p&gt;
+
+&lt;p&gt;Well, it depends on how great you want to go. A top designer will be able to produce something far nicer - and far more functional - than you&amp;rsquo;d be able to manage. People like the guys from &lt;a href=&#34;http://www.menwithpens.ca&#34;&gt;Men With Pens&lt;/a&gt; (I&amp;rsquo;ve not worked with them, but I hear they have a fantastic rep) will create you an incredible design - but you&amp;rsquo;ll pay for it. Men With Pens&amp;rsquo; design options start from $5k. Other equally good designers are a bit cheaper, but realistically you won&amp;rsquo;t come out with much change from $2k.&lt;/p&gt;
+
+&lt;p&gt;Now, don&amp;rsquo;t get me wrong - if you can possibly afford that, go for it. (I&amp;rsquo;m seriously considering hiring someone of that sort of status for Guerilla Showrunner right now - although it may come down to a choice between that and a new mocap suit for &lt;a href=&#34;http://www.strangecompany.org&#34;&gt;Strange Company&lt;/a&gt;). It&amp;rsquo;ll make you look a hell of a lot more credible, it will actually boost views, subscribers and business in general - &lt;a href=&#34;http://www.thelaunchcoach.com&#34;&gt;Dave Navarro&lt;/a&gt; says his business nearly doubled after he forked out for a really slick design - and it&amp;rsquo;ll make your crew feel great into the bargain.&lt;/p&gt;
+
+&lt;p&gt;If you can&amp;rsquo;t - it&amp;rsquo;s worth checking out outsourcing sites, but you&amp;rsquo;ll have to put the time in to find a designer with a style that you really like. &lt;a href=&#34;http://www.99designs.com&#34;&gt;99 Designs&lt;/a&gt; and Elance.com are both worth looking at. However, even here, you&amp;rsquo;ll pay more than you&amp;rsquo;d expect for a really awesome design, probably in the $1k range.&lt;/p&gt;
+
+&lt;p&gt;So surely it&amp;rsquo;s worth looking for some hungry student or dubious third-world outsourcer? No, not really. If you&amp;rsquo;re a reasonably visual person and you&amp;rsquo;re willing to put some time in, you&amp;rsquo;ll do a better job of coming up with a design that suits your website from the building blocks of Thesis and Wordpress than J. Random Designer will. I&amp;rsquo;ve tried hiring people on price for visual work a few times, and it&amp;rsquo;s rarely a good idea.&lt;/p&gt;
+
+&lt;p&gt;Sometimes, if you really search, and you know what you want, you can find a great designer who&amp;rsquo;s just starting out, and get a bargain. But it&amp;rsquo;s far from guaranteed. Overall, if you can&amp;rsquo;t pay at least reasonably well, well, and you have some or any skill, you&amp;rsquo;re better doing it yourself.&lt;/p&gt;
+
+&lt;h2 id=&#34;how-to-customise-wordpress-to-meet-your-needs&#34;&gt;How To Customise Wordpress To Meet Your Needs&lt;/h2&gt;
+
+&lt;p&gt;This is where Thesis, the custom theme I recommended &lt;a href=&#34;http://guerillashowrunner.com/2011/04/the-complete-guide-to-setting-up-your-webseries-webpage-part-2&#34;&gt;in the last article&lt;/a&gt;, really starts to shine. You could use a free Wordpress theme if you like, but you&amp;rsquo;ll end up having to heavily customise it at the code level, and some features will be tricky to implement - I believe! I&amp;rsquo;ve never tried it, and I&amp;rsquo;d have to learn quite a bit about Wordpress theme design before I did.&lt;/p&gt;
+
+&lt;p&gt;In general, about 80% of the tweaks we need to make can be done within Thesis&amp;rsquo; main interface. A few of the more cunning bits will need to use custom CSS and in one case custom code, through Thesis&amp;rsquo; &amp;ldquo;custom&amp;rdquo; section.&lt;/p&gt;
+
+&lt;p&gt;However, don&amp;rsquo;t be too scared by this - in 90% of the cases below, I found out what I needed to do to tweak my design by Googling &amp;ldquo;Thesis&amp;rdquo; and whatever customisation I wanted, like &amp;ldquo;Nav menu below logo&amp;rdquo;, and then simply followed the instructions that Google threw at me!&lt;/p&gt;
+
+&lt;h2 id=&#34;initial-thesis-tweaks&#34;&gt;Initial Thesis Tweaks&lt;/h2&gt;
+
+&lt;p&gt;First up, don&amp;rsquo;t forget to set your site&amp;rsquo;s title under &amp;ldquo;Site Options -&amp;gt; Home Page SEO&amp;rdquo;. Make sure that any keywords that people might use to find your site (&amp;ldquo;Scientific Cookery&amp;rdquo;, &amp;ldquo;Geek cooking&amp;rdquo; and similar combinations in Kamikaze Cookery&amp;rsquo;s case) are in your header, but don&amp;rsquo;t make it sound unnatural. I went for &amp;ldquo;Kamikaze Cookery - Geeks cook. With Science.&amp;rdquo;. Fill out the Meta Description too - that&amp;rsquo;s what people will see in search results for your main site.&lt;/p&gt;
+
+&lt;p&gt;Now, under Design Options, there are a few tweaks we need to make. Set your Columns first. Single-column layouts seem to be becoming the standard for web series, and are what the Divine Bitches site uses - in general, I&amp;rsquo;d recommend them because they present the viewer with the least visual clutter and allow you to draw the eye as easily as possible.&lt;/p&gt;
+
+&lt;p&gt;Width should be around 900px these days, although you can change it if you have a specific reason to.&lt;/p&gt;
+
+&lt;p&gt;Under &amp;ldquo;Features and Teasers&amp;rdquo;, set the number of Features to either 1 or 2 - 1 if you&amp;rsquo;re running a show where people can jump in at any point, 2 if your show is arced or there might be other reasons you&amp;rsquo;d prefer a new viewer to start at a specific episode.&lt;/p&gt;
+
+&lt;p&gt;The &amp;ldquo;Features&amp;rdquo; are the episodes that we&amp;rsquo;ll have showcased at the top of the page, with a trailer and a description. If we&amp;rsquo;ve got two features, we&amp;rsquo;re going to showcase two episodes on the front page - the first or best entry episode, and also the latest one, thus ensuring that both returning and new visitors can easily find what they&amp;rsquo;re looking for.&lt;/p&gt;
+
+&lt;p&gt;Under &amp;ldquo;Posts&amp;rdquo;, set &amp;ldquo;Display Post Excerpts&amp;rdquo;. That allows us to show a teaser for a video on the front page and the actual video on a seperate page.&lt;/p&gt;
+
+&lt;p&gt;Set &amp;ldquo;Feature Box&amp;rdquo; to &amp;ldquo;Do Not Use Feature Box&amp;rdquo; - it&amp;rsquo;s not a feature we need.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s about all we need to do for now.&lt;/p&gt;
+
+&lt;h2 id=&#34;populating-your-show&#34;&gt;Populating your show&lt;/h2&gt;
+
+&lt;p&gt;Now, we need some content before we can start customising. Use your show&amp;rsquo;s &lt;strong&gt;existing episodes&lt;/strong&gt; if you already have them - otherwise, just grab some random YouTube videos in approximately the format you expect to show (Widescreen if you&amp;rsquo;re widescreen, roughly the same style or content, etc). Obviously, you&amp;rsquo;ll have to replace those with real content before you go live, but you can use random videos to make sure your design works.&lt;/p&gt;
+
+&lt;p&gt;You&amp;rsquo;ll also need some** thumbnail images** from the episodes - grab them from the videos using the image editor of your choice (Pause video, Print Screen, and crop out the image).&lt;/p&gt;
+
+&lt;p&gt;And you&amp;rsquo;ll need at least one** trailer** for the show - either use one you&amp;rsquo;ve got already or grab a random video, either one of yours or a completely random one. You should probably cut a trailer anyway if you haven&amp;rsquo;t got one!&lt;/p&gt;
+
+&lt;p&gt;Now, here&amp;rsquo;s where it gets a bit tricky. You&amp;rsquo;ll want the main body of your post to JUST contain the video you&amp;rsquo;re wanting to show - use the YouTube (or whatever site you&amp;rsquo;re hosting your vids on) embed code for now, with the width set to 40 px less than the width of your site, although later on you can substitute &lt;a href=&#34;http://guerillashowrunner.com/2011/03/how-to-learn-where-your-youtube-viewers-stop-watching-your-videos-when-they-start-where-they-come-from-and-more/&#34;&gt;tracking code to let you get detailed stats from your videos&lt;/a&gt; at a later date (or now if you feel ambitious).&lt;/p&gt;
+
+&lt;p&gt;IN the &amp;ldquo;Excerpt&amp;rdquo; box further down the Wordpress page, add the following code:&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;div&amp;gt;EMBED CODE&amp;lt;div style=&amp;quot;float: right; padding-left: 10px; width: 380px&amp;quot;&amp;gt;&amp;lt;h2&amp;gt;&amp;lt;a href=&amp;quot;LINK TO POST&amp;quot;&amp;gt;View full episode&amp;lt;/a&amp;gt;&amp;lt;/h2&amp;gt;
+&amp;lt;b&amp;gt;EPISODE TITLE&amp;lt;/b&amp;gt;
+Length: EPISODE LENGTH
+EPISODE DESCRIPTION&amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Replace EPISODE TITLE, EPISODE LENGTH and EPISODE DESCRIPTION with the specific elements of your episode, of course. LINK TO POST should be replaced with the link to the current post - get it from the top of the Wordpress post page. EMBED CODE should be the embed code or tracking code for your trailer for the episode (or series), set to about 480 width if you&amp;rsquo;re using a 900 page width.&lt;/p&gt;
+
+&lt;p&gt;Finally, upload your thumbnail image using the upload tools at the top of the Wordpress Post page. Copy the address for the Medium size image (it&amp;rsquo;ll be obvious when you do it), and paste that into &amp;ldquo;Thumbnail Image&amp;rdquo;, about half-way down.&lt;/p&gt;
+
+&lt;p&gt;Repeat this process for every episode you have, or for 3 or 4 sample episodes if you&amp;rsquo;re just using test footage for now.&lt;/p&gt;
+
+&lt;p&gt;Once you&amp;rsquo;ve done that, take a look at your front page - it&amp;rsquo;ll look a bit of a mess, but the site will be starting to come together.&lt;/p&gt;
+
+&lt;h2 id=&#34;tweaking-the-design&#34;&gt;Tweaking The Design&lt;/h2&gt;
+
+&lt;p&gt;This is where things start to get a bit personal. At this point, you&amp;rsquo;ll want to start playing around with and tweaking the various design options in Thesis and generally trying to make your site look as nice as possible.&lt;/p&gt;
+
+&lt;p&gt;Here are some suggestions for things I did to make my test site look nicer, and some tricks to make Thesis do things that aren&amp;rsquo;t initially obvious.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Fix Your Excerpts&lt;/strong&gt; Initially, the most obvious thing about your page will be the ugly, ugly videos below the main one, cluttering up the page. Fortunately, this is easy to fix. Go to the Custom File Editor, and at the bottom of Custom.css, add
+&lt;code&gt;
+.custom .format_teaser .excerpt {display : none}
+&lt;/code&gt;
+Now, go to Design Options -&amp;gt; Teaser Display Options, and uncheck everything except &amp;ldquo;Post Excerpt&amp;rdquo; and &amp;ldquo;Post Title&amp;rdquo;. You can drag-and-drop those two to change the order they&amp;rsquo;re in. Reload the page, and you&amp;rsquo;ll just have lovely, lovely thumbnails.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Add a logo&lt;/strong&gt;. Pretty easy, this one - resize or otherwise edit your logo (you could add whitespace using Photoshop or another editing package to make it the same width as your page if you don&amp;rsquo;t want it centered) to the width of your site, then upload it through Thesis&amp;rsquo; &amp;ldquo;Header Image&amp;rdquo; function. Now change Design Options -&amp;gt; Header to not show your site title or tagline as text.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Add a nice border&lt;/strong&gt; This is a nifty effect - in Design Options -&amp;gt; Fonts, Colors and More -&amp;gt; Body (And Content Area), select &amp;ldquo;Add a cool shadow effect to your layout&amp;rdquo;. Does exactly what it says!&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Put the navigation menu below the header image&lt;/strong&gt; For a site design like this, you&amp;rsquo;ll almost always want the menu below the logo as a way to break the page up a bit (unless you&amp;rsquo;ve included a break in the logo image itself). There&amp;rsquo;s no menu option to do this in Thesis, but it&amp;rsquo;s simple to do with custom code.Go to &amp;ldquo;Custom File Editor&amp;rdquo;, and select &amp;ldquo;Custom_Functions.php&amp;rdquo;. You&amp;rsquo;ll be presented with a text document - where it says &amp;ldquo;add your code here&amp;rdquo;, or words to that effect, add
+&lt;code&gt;
+remove_action(&#39;thesis_hook_before_header&#39;, &#39;thesis_nav_menu&#39;);
+add_action(&#39;thesis_hook_after_header&#39;, &#39;thesis_nav_menu&#39;);
+&lt;/code&gt;
+That&amp;rsquo;s it - your menu will now be below your logo.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Hide unnecessary bits on featured posts&lt;/strong&gt; You don&amp;rsquo;t need or want to show &amp;ldquo;Author&amp;rdquo;, number of comments (unless it&amp;rsquo;s huge), date, or various other things on your post. Go to Design Options -&amp;gt; Byline and uncheck all the options you don&amp;rsquo;t want - I&amp;rsquo;ve unchecked them all. Then go to Tagging, and deselect &amp;ldquo;Show Tags on Index and Archive Pages&amp;rdquo;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Make your menu bar a solid colour&lt;/strong&gt; I wanted a solid block of colour for my menu bar. Fortunately, this is really easy - in Custom.css in the Custom File Editor, simply add
+&lt;code&gt;
+.custom .menu {background-color: rgb(255, 102, 0)}
+&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So, after all that, you should have something a bit like &lt;a href=&#34;http://kamikazecookery.nfshost.com/&#34;&gt;http://kamikazecookery.nfshost.com/&lt;/a&gt; - not super-slick, but certainly usable.&lt;/p&gt;
+
+&lt;h2 id=&#34;so-how-do-i-make-it-slicker&#34;&gt;So How Do I Make It Slicker?&lt;/h2&gt;
+
+&lt;p&gt;After you&amp;rsquo;ve done all that and fiddled about for a while, you&amp;rsquo;ve probably got something that looks clean and acceptable, but certainly not as slick as the Divine Bitches site or anything like it.&lt;/p&gt;
+
+&lt;p&gt;Unless you have some serious hidden talent, you&amp;rsquo;re never going to get to the level of the slickest of the slick - after all, the top sites on the Internet are designed by people who spend their lives doing very little but obsessing on website design. I know a few of those guys, and they&amp;rsquo;re better than I&amp;rsquo;m ever going to be.&lt;/p&gt;
+
+&lt;p&gt;However, you don&amp;rsquo;t need to be in that top 0.1%, and as I discussed above, you probably can&amp;rsquo;t afford to be either. If you&amp;rsquo;re not in a situation where you can drop a couple of thousand bucks on your website, you can make a remarkably pretty and functional site up yourself just by taking the design you already have - which is already probably better than most non-professional efforts - and spending a day or so tweaking.&lt;/p&gt;
+
+&lt;p&gt;Here are a few tips for improving your design by yourself:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Get LOTS of feedback&lt;/strong&gt;, and not just feedback from people you know. Certainly, ask for critiques and things you could do better from your friends, and from Facebook friends, and so on - but also put it out there in the harsh light of day. Ask for a crit on Web Series Network, or on IndieTalk, or on the forums for the tools you use. Find web design forums and - HUMBLY - ask for suggestions. Maybe even post somewhere like Hacker News or Reddit and ask for feedback there - it&amp;rsquo;ll be pretty harsh, but there are some very smart people out there, and often you only need one tip - &amp;ldquo;Reduce the font size&amp;rdquo;, &amp;ldquo;Put a gradient on the background&amp;rdquo; - to massively improve your site.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Play around&lt;/strong&gt; Particularly if you&amp;rsquo;re new to webdesign, don&amp;rsquo;t be afraid to play. It&amp;rsquo;s reasonably hard to break your site permanently - try different colour schemes. Try changing border sizes. Mess around.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Read Books&lt;/strong&gt; My number one tip for most things - read a book. Find a book on web design and read it. You&amp;rsquo;ll probably find half a dozen ideas - try them as you go. This is a great way to build up a skill too - although it ain&amp;rsquo;t fast. &lt;a href=&#34;http://designingfortheweb.co.uk/book/index.php&#34;&gt;This is a good, free place&lt;/a&gt; to start.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Add some shots from the show&lt;/strong&gt; One great way to spruce up a website is to use some graphics - and you&amp;rsquo;ve already got a great source of graphics in your show! Try using them as spacers - use a line of tiny thumbnails from the show - as background images - blurred a bit and spread out - or even use graphical elements from your titles for edges and corners. It&amp;rsquo;s amazing what you can do with a bit of time with Photoshop and some great images from the show.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Pay a great designer to do as much as you can afford&lt;/strong&gt; You&amp;rsquo;re better off getting something from a great designer than everything from a below-average one. Find the designer you&amp;rsquo;d really like to have design your site - look at their portfolio and past work - and then ask them if they&amp;rsquo;d be willing to give you some suggestions for improving your site design, or a full critique, or even an image-based mockup you could work from. Negotiate! See what they can do for you.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I&amp;rsquo;ve never hired a designer for any of my series&amp;rsquo; sites. At the end of the day, even if your site isn&amp;rsquo;t perfect or beautiful, if it lets people find your series and watch it, it&amp;rsquo;s doing the job you need it to do.&lt;/p&gt;
+
+&lt;h2 id=&#34;next-week-stress-testing-continuous-improvement-and-more&#34;&gt;Next Week: Stress-Testing, Continuous Improvement, and More&lt;/h2&gt;
+
+&lt;p&gt;Well, the good news is, if you&amp;rsquo;ve followed through that, you&amp;rsquo;re basically done! You&amp;rsquo;ve got a site, it&amp;rsquo;s perfectly capable of serving your series up to your audience, and it looks at least reasonably appealing and professional.&lt;/p&gt;
+
+&lt;p&gt;There are a few more things that you can and probably should do. Next week we&amp;rsquo;ll have the final, slightly shorter part of the series, where I discuss checking if your site can handle all the traffic it might suddenly get - including anything up to a mention on a site like Digg or Reddit - and how to improve things if it can&amp;rsquo;t. I&amp;rsquo;ll also discuss continuous improvement, testing, and how to keep making your site steadily better as your series grows.&lt;/p&gt;
+
+&lt;p&gt;But for now - you&amp;rsquo;ve got a site, or at least you know enough to make one. Woohoo!&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;What to do next:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;_If you had any trouble with any parts of this article, or if you&amp;rsquo;ve got questions or suggestions on designing your series&amp;rsquo; website, post them in the Comments below! _&lt;/p&gt;
+
+&lt;p&gt;_And if you felt you got some value out of this article, please hit the Retweet button below to share it with more people it could help! _&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on Guerilla Showrunner</title>
+    <link>http://www.guerillashowrunner.com/tags/news/index.xml</link>
+    <description>Recent content in News on Guerilla Showrunner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://www.guerillashowrunner.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Quiet Times, Part 1</title>
+      <link>http://www.guerillashowrunner.com/2011/06/quiet-times-part-1/</link>
+      <pubDate>Thu, 02 Jun 2011 17:16:11 +0000</pubDate>
+      
+      <guid>http://www.guerillashowrunner.com/2011/06/quiet-times-part-1/</guid>
+      <description>&lt;p&gt;Apologies for the recent silence here - it&amp;rsquo;s been crazy busy at Strange Company Towers.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ll have a new post up tomorrow, touch wood - however, posting may be a bit erratic for a while.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hosting on Guerilla Showrunner</title>
+    <link>http://www.guerillashowrunner.com/tags/hosting/index.xml</link>
+    <description>Recent content in Hosting on Guerilla Showrunner</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <atom:link href="http://www.guerillashowrunner.com/tags/hosting/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>The complete guide to setting up your web series&#39; webpage, Part 1</title>
+      <link>http://www.guerillashowrunner.com/2011/04/the-complete-guide-to-setting-up-your-web-series-webpage-part-1/</link>
+      <pubDate>Fri, 01 Apr 2011 16:15:05 +0000</pubDate>
+      
+      <guid>http://www.guerillashowrunner.com/2011/04/the-complete-guide-to-setting-up-your-web-series-webpage-part-1/</guid>
+      <description>&lt;p&gt;Other parts of this series : &lt;a href=&#34;http://guerillashowrunner.com/how-to-webpage/&#34;&gt;The Complete Guide to Setting Up Your Webseries Webpage&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve seen a fair number of people on Web Series Chat on Twitter and elsewhere asking about setting up a website for your web series - how to do it, what to use, what hosts are good, and so on.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve been making websites - mostly for Web series - for 16 years now. There are a lot of choices and options out there, but if you choose the right ones, 2011 is about the best year yet to quickly set up something powerful, flexible and usable that major corporations would have killed for back in 2002.&lt;/p&gt;
+
+&lt;p&gt;So, here we go with a complete guide to setting up a site for a web series as quickly and painlessly as possible. I&amp;rsquo;ll go through the software and hardware you need to make it work, talk about a couple of common customisations, let you know what you need and don&amp;rsquo;t need, and discuss the goals of the entire thing in the first place!&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;Oh, one thing. I said that the site would be quick and painless - I didn&amp;rsquo;t mention cost. From my experience, you&amp;rsquo;re far better NOT trying to minimise your costs below a certain level. You can produce a surprisingly sophisticated website for a sum which a lot of people would consider ridiculously small, but there comes a point where trying to make your site for free will really hurt in the long term. I&amp;rsquo;ve tried both ways.&lt;/p&gt;
+
+&lt;h2 id=&#34;goals-for-a-site&#34;&gt;Goals for a site&lt;/h2&gt;
+
+&lt;p&gt;So what does your site need to do?&lt;/p&gt;
+
+&lt;p&gt;One of the things that makes almost any website, and particularly a show site, tricky to design is that it&amp;rsquo;s actually for two audiences: returning viewers who want to find the new content quickly, and new visitors who want to find out what the show&amp;rsquo;s about.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve written about &lt;a href=&#34;http://guerillashowrunner.com/2011/02/why-a-good-porn-site-makes-our-web-show-pages-look-like-amateurish-crap/&#34;&gt;taking cues for web design from other industries&lt;/a&gt; before, so I&amp;rsquo;m not going to go into the design of the thing here to any great degree. However, one of the most common mistakes that even experienced Web businesses make is to start designing before you&amp;rsquo;ve figured out what your design&amp;rsquo;s supposed to do.&lt;/p&gt;
+
+&lt;p&gt;So - what you need your design to do is two-fold. For new visitors, it needs to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Tell them what the show is and why they might want to watch it - either with words or pictures. Importantly, you&amp;rsquo;re not aiming to sell the show to everyone here - instead, you want your target market to find out that this is the show for them as fast and convincingly as possible. If a visitor isn&amp;rsquo;t in the target market, you don&amp;rsquo;t really care about their reaction.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Direct them to watch the show in the order that will make the best sense, with as little effort and confusion on their part as possible. That might be most recent episode first, or it might be first episode first, or it might not matter.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;If they enjoyed your show, persuade them to sign up to some form of subscription or other ongoing contact with your show as effectively as possible.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Meanwhile, for existing visitors, it needs to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Promote your new content so that they can easily find it&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Allow them to navigate through old content easily and logically.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Your website PROBABLY (but not definitely) also needs to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Help and encourage viewers to share your content and tell their friends, enemies, and Facebook readers about it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Make it easy and fun for your viewers to interact with you and each other, comment on the show, and generally become more involved.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Make the site easily visible to search engines so that they can drive new traffic to your show.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;(Probably? Yes. You can run a show that doesn&amp;rsquo;t do these things - but that&amp;rsquo;s a subject for another article.)&lt;/p&gt;
+
+&lt;p&gt;So, now we know what we need to do, we can design a site appropriately!&lt;/p&gt;
+
+&lt;h2 id=&#34;what-you-don-t-need-for-your-site&#34;&gt;What you don&amp;rsquo;t need for your site&lt;/h2&gt;
+
+&lt;p&gt;The Web development world has really matured over the last few years, and a lot of things that used to be the case if you wanted a sophisticated website no longer are.&lt;/p&gt;
+
+&lt;p&gt;In particular, blogging platforms and CMS (Content Management Systems) have advanced leaps and bounds. That means that there&amp;rsquo;s one huge thing that you absolutely don&amp;rsquo;t need any more to set a site up from scratch:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;You don&amp;rsquo;t need a programmer&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;I coded the CMS for every series I&amp;rsquo;ve worked on, from Matrix 4x1 through BloodSpell through to Kamikaze Cookery. Nowadays, unless I was doing something very specific, I wouldn&amp;rsquo;t bother.&lt;/p&gt;
+
+&lt;p&gt;The Wordpress blogging engine has advanced until it dominates the Internet and provides a solid platform to build 90% of content-centered websites on. There are thousands of plugins to do almost anything you want (and remove some of its more well-known limitations) and highly customisable &amp;ldquo;themes&amp;rdquo; that means the amount of HTML and CSS you need to write is minimal.&lt;/p&gt;
+
+&lt;p&gt;You still need to be comfortable with computers - your aged relative who tries to use a mouse as a foot pedal still couldn&amp;rsquo;t do the site setup for you - but you no longer need to be a coder, really, to set up your Web presence.&lt;/p&gt;
+
+&lt;p&gt;(Death Knight Love Story&amp;rsquo;s website is hand-coded rather than using Wordpress. I&amp;rsquo;m doing something very specific with that site and whilst I theoretically could use a CMS like Wordpress, I have some rather specific and unusual requirements for the site.&lt;/p&gt;
+
+&lt;p&gt;If you have the skills to write code or design a website in a very non-standard way, it&amp;rsquo;s still useful. However, if you&amp;rsquo;re not setting up with the realistic expectation of tens of millions of visitors, you don&amp;rsquo;t need to do the kind of hard-coding I&amp;rsquo;m doing there.)&lt;/p&gt;
+
+&lt;p&gt;Other things you don&amp;rsquo;t need:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You don&amp;rsquo;t need a super-expensive hosting package. It won&amp;rsquo;t hurt, but the cheapest web hosting setup from a reputable host should be able to handle a pretty solid amount of traffic, enough to cope with a mention in a major news outlet or similar.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You don&amp;rsquo;t need &amp;ldquo;one-click&amp;rdquo; Wordpress installation. Various hosting providers offer it, and I initially assumed you&amp;rsquo;d need it when I researched this article, but in actual fact the Wordpress installation is simple enough that anyone can do it on virtually any platform.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You don&amp;rsquo;t need to install a lot of WordPress plugins. In fact, I&amp;rsquo;d heartily recommend you avoid doing so. Wordpress plugins can easily make a site much, much slower to load - I can&amp;rsquo;t count the number of times I&amp;rsquo;ve traced a speed problem on a WP site to a single rogue plugin calling something huge from an overstretched remote address. In particular, I&amp;rsquo;d suggest you avoid the Facebook Like plugin unless you really have to - it kinda sucks.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You don&amp;rsquo;t need to be able to use Linux. The Web hosts I recommend will all be running your webspace on Linux, rather than Windows or Mac OS X, and that might sound pretty scary. However, unless you want to get into the nitty-gritty of server administration, you can rely on your webhost for pretty much anything Linuxey - indeed, a lot of hosts would prefer you did. (Sometimes &lt;strong&gt;my&lt;/strong&gt; long-suffering webhosts, the astonishingly cool &lt;a href=&#34;http://www.bytemark.co.uk&#34;&gt;Bytemark&lt;/a&gt; would probably prefer I did too, but hey, they foolishly sold me a dedicated server&amp;hellip;)&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;what-you-need-for-your-site&#34;&gt;What you need for your site&lt;/h2&gt;
+
+&lt;p&gt;For the installation I&amp;rsquo;m going to suggest, you need a Web server, a mailing list server, an installation of Wordpress, a bunch of plugins to fix problems, and that&amp;rsquo;s about it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Engine: Wordpress&lt;/strong&gt;: The old-school approach to a website was to code everything up in raw HTML - the markup language of the Web. Sites designed like that were difficult to update, and didn&amp;rsquo;t offer any kind of interaction - even commenting. From our &amp;ldquo;goals&amp;rdquo; point of view, a raw HTML site requires a lot of work to fulfil any of them.&lt;/p&gt;
+
+&lt;p&gt;That&amp;rsquo;s why these days most sites are built on a coded Content Management System, or CMS. Using a CMS, you can add whatever you like - text blogs, videos, etc - and the server will convert that into HTML for other web users to view. If you change something, it&amp;rsquo;ll change it across all pages. And, of course, it means that other people can add content too - like comments!&lt;/p&gt;
+
+&lt;p&gt;There are a lot of CMSes out there, and they all have their rabid fans, but realistically for a non-technical setup, and one that isn&amp;rsquo;t going to take too much time, &lt;a href=&#34;http://www.wordpress.org&#34;&gt;Wordpress&lt;/a&gt; is by far your best alternative. It&amp;rsquo;s sensationally easy to get going - they tout a &amp;ldquo;5-minute installation&amp;rdquo;, and in terms of hands-on time, it&amp;rsquo;s probably less - even for a non-technical user. You download the Wordpress program, use SFTP to send it to your host (sounds complicated, but it&amp;rsquo;s basically drag-and-drop like moving files in Explorer or Finder), use your web host&amp;rsquo;s interface to set up a database (again, sounds scary, but all you&amp;rsquo;ll have to do is choose a name, username and password for the database and it&amp;rsquo;ll be done automatically), fill in the fields you just chose on another web form, change a couple of &amp;ldquo;permissions&amp;rdquo; via SFTP (by clicking some clickyboxes) and bam - working Wordpress.&lt;/p&gt;
+
+&lt;p&gt;Wordpress is also very customisable, and even better, has an awful lot of people doing the customisation for you. It&amp;rsquo;s been developed for 5 or 6 years in a real-world, big-companies-and-sites-actually-using-it environment, so its design is very well-focussed on what you&amp;rsquo;ll actually want and need, and it&amp;rsquo;s very simple to use. It&amp;rsquo;s also free and Open-Source, which is a bloody good start.&lt;/p&gt;
+
+&lt;p&gt;Wordpress is intended as a blogging platform, but a blogging platform has most of the same features you&amp;rsquo;ll need for your web series. It&amp;rsquo;s focussed toward getting people to subscribe, having an easily navigable archive of content, and allowing people to interact with you after viewing your content - in other words, it meets most of our goals out of the box. You&amp;rsquo;ll be embedding video rather than writing text, but other than that, what you&amp;rsquo;re doing as a Web Series creator is almost exactly what it&amp;rsquo;s designed for.&lt;/p&gt;
+
+&lt;p&gt;Other CMSes like Drupal are harder to configure and have less available options. They&amp;rsquo;re powerful and they have their fans, but all else being equal, avoid.&lt;/p&gt;
+
+&lt;p&gt;Of course, as a final option, you could create the site from scratch using pure HTML (web markup) or write your own CMS. Even if you have the skills to do this, I wouldn&amp;rsquo;t advise it. I&amp;rsquo;ve done both and I&amp;rsquo;d advise you to avoid both unless you have a very specific reason you want to do that. Pure HTML sites are a pain to update and have limited interactivity, and it&amp;rsquo;ll take a LONG time to code something with the same level of functionality as Wordpress - I know, I&amp;rsquo;ve tried.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Subscription Engine: Mailchimp or Feedburner&lt;/strong&gt; As per our goals, you&amp;rsquo;ll want something to alert your viewers when a new episode comes out, and you want as many as possible of them to subscribe to it. There are basically two options here: either RSS or an email list.&lt;/p&gt;
+
+&lt;p&gt;In &amp;ldquo;Get Crazed Stalkers&amp;rdquo;, I advise you to use an email list if at all possible. That&amp;rsquo;s because nearly a decade of research suggests that the response rate to email is far, far, far higher than it is to an RSS feed, Twitter, Facebook, or anything else. Email is a &amp;ldquo;push&amp;rdquo; medium - your reminder about the latest episode turns up in your viewers&amp;rsquo; inbox without them having to take any action, as opposed to RSS, where they&amp;rsquo;ll have to remember to check their reader and actually click on your feed, or even worse Twitter, where you&amp;rsquo;re chancing they&amp;rsquo;ll see your message before it gets buried by some crap from Charlie Sheen or Stephen Fry&amp;rsquo;s latest news about his sandwich.&lt;/p&gt;
+
+&lt;p&gt;Don&amp;rsquo;t get me wrong - you should probably use Twitter too. But for notifying your loyal followers that Something Awesome This Way Comes (your new episode), you probably want to use an email list.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve tried a few different email list providers, and the one I&amp;rsquo;m most impressed with is &lt;a href=&#34;http://www.mailchimp.com&#34;&gt;Mailchimp&lt;/a&gt; - it&amp;rsquo;s free for lists of under 2,000 people (which will include yours, in all probability), it&amp;rsquo;s very powerful, it tries very hard to be user-friendly (arguably a bit too hard - I get fed up with their design interface - but there&amp;rsquo;s loads of help available too) and it handles all the gubbins of getting double-opt-ins and so on without you having to faff around with it.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re not comfortable with an email list or think that your audience would prefer RSS (or are just feeling a bit lazy), you&amp;rsquo;ll want to run your RSS feed through &lt;a href=&#34;http://www.feedburner.com&#34;&gt;Feedburner&lt;/a&gt;. It&amp;rsquo;s a startup that was bought by Google, and aims to give you some kind of data and intelligence on how your feed&amp;rsquo;s doing. Most simply and notably, it&amp;rsquo;ll tell you roughly how many people are subscribed to your feed, and also it will tell Google Analytics how many of them clicked on your latest episode. Analytics and the ability to tell what&amp;rsquo;s actually happening are vital - grab it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hosting Provider - Dreamhost or NearlyFreeSpeech.net&lt;/strong&gt; Oh, god, the eternal &amp;ldquo;where should we host this?&amp;rdquo; question. Sadly, it appears from some reading around that whilst I personally haven&amp;rsquo;t had any hosting problems in years (the years I&amp;rsquo;ve been with my current host - Not A Coincidence), the endless hassles of bad, absent, permanently down or clueless webhosting are still very much with us.&lt;/p&gt;
+
+&lt;p&gt;Fortunately, there are some superb hosts out there. The very best of the best aren&amp;rsquo;t really accessible to anyone without hardcore knowledge - much as I&amp;rsquo;d like to recommend &lt;a href=&#34;http://www.bytemark.co.uk&#34;&gt;Bytemark&lt;/a&gt;, &lt;a href=&#34;http://www.slicehost.com&#34;&gt;Slicehost&lt;/a&gt;, or even Amazon EC2, they&amp;rsquo;re overkill for a web series and not usable if you&amp;rsquo;re not competent with Linux server administration. (If you ARE - Bytemark in the UK or Slicehost in the US, done, that&amp;rsquo;s it, move along.)&lt;/p&gt;
+
+&lt;p&gt;The collective brains of &lt;a href=&#34;http://www.reddit.com&#34;&gt;Reddit&lt;/a&gt; and &lt;a href=&#34;http://news.ycombinator.com&#34;&gt;Hacker News&lt;/a&gt;, two of the most knowledgable and largest communities on the &amp;lsquo;net, mention a lot of lower-end hosts, but two names keep cropping up: Dreamhost and NearlyFreeSpeech.net. I&amp;rsquo;ve also used both, and I can attest that they&amp;rsquo;re excellent.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://www.nearlyfreespeech.net&#34;&gt;NearlyFreeSpeech.net&lt;/a&gt; are, as the name suggests, also very very cheap. They charge $.03 per day for basic services like a database and Web availability, and beyond that only charge for bandwidth and disk space used. $1 gets you 100 Mb storage space a month, which is probably a lot more than you&amp;rsquo;ll need. Meanwhile, bandwidth costs a dollar per gigabyte used. To give you an idea of how far that goes - the BloodSpell site serves up about 100k of data for each page view. Assuming two page views per visitor and 5,000 visitors per month (approximately 1k per episode if you&amp;rsquo;re releasing weekly), that&amp;rsquo;d mean you would end up paying&amp;hellip; $1 per month for bandwidth. Ten times as much and you&amp;rsquo;ll pay $10 per month.&lt;/p&gt;
+
+&lt;p&gt;Obviously, if you have a large traffic spike, you&amp;rsquo;ll pay a bit more - but there are very few sites on the internet, speaking from personal experience, that will drive more than 20k visitors to your site, meaning an additional $4 charge or so.&lt;/p&gt;
+
+&lt;p&gt;NearlyFreeSpeech have an excellent reputation in almost all other areas. They have been around for nearly a decade, and have a large and loyal following. They&amp;rsquo;re unusually stable for a shared hosting service - you&amp;rsquo;ll probably not see much downtime if any. And everything they offer is extremely technically solid.&lt;/p&gt;
+
+&lt;p&gt;Their only downside is that they&amp;rsquo;re not the friendliest of outfits. They pitch themselves at the slightly more expert user, and there are quite a few reports of unfriendly customer service, particularly to somewhat less technically-inclined customers. As one user online said, &amp;ldquo;if their support tells you what is wrong and you don&amp;rsquo;t understand what they are saying, it is up to you to go research what the terminology means and do your level best to figure it out&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;rsquo;re looking for great customer service or you&amp;rsquo;re worried that your bandwidth bills will mount up, you might want to consider &lt;a href=&#34;http://www.dreamhost.com/r.cgi?1123430&#34;&gt;Dreamhost&lt;/a&gt; instead.&lt;/p&gt;
+
+&lt;p&gt;Like NFS.net, Dreamhost have been around for forever and a week. I used them back in 2006 and they weren&amp;rsquo;t newbies then. Their selling feature has long been a promise of &amp;ldquo;unlimited&amp;rdquo; bandwidth - which, I&amp;rsquo;d have to say, was in my experience fairly accurate. I was using them to host video files, and probably transferred terabytes of data from them - without a peep of complaint. A lot of web hosts claim unlimited bandwidth but don&amp;rsquo;t deliver - Dreamhost will, in all likelihood, provide you with more bandwidth than you can use.&lt;/p&gt;
+
+&lt;p&gt;They also pride themselves on user-friendliness, and are very well-set-up to assist less technically able users. I&amp;rsquo;ve personally had excellent technical support interactions with them, including a billing dispute that they refunded without any problems. They also operate a number of &amp;ldquo;one-click install&amp;rdquo; systems - I&amp;rsquo;ve not tried them, and as mentioned above, you don&amp;rsquo;t need them, but the ease-of-use of installing Wordpress with a single click is a pretty cool feature.&lt;/p&gt;
+
+&lt;p&gt;Downsides? Well, they&amp;rsquo;re not super-cheap, at around $10 per month. And a lot of users complain about downtime or occasional slow service with their services - I&amp;rsquo;ve seen a few problems in that direction myself. You&amp;rsquo;re unlikely to see days of outage, but the occasional couple of hours is a possibility - they certainly have a worse reputation for stability than NearlyFreeSpeech.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s also worth noting that there are a lot of negative reviews of them on some websites. Reading between the lines, and looking at the fact that they&amp;rsquo;re mostly complaining about their sites being taken down, I strongly suspect that many of these disputes were due to the complainers using seriously dubious &amp;ldquo;black-hat&amp;rdquo; search engine optimisation techniques, spamming, or other stuff that any host is likely to clamp down on.&lt;/p&gt;
+
+&lt;p&gt;In summary - if you&amp;rsquo;re likely to start small and you&amp;rsquo;re willing to learn and research a bit, choose NearlyFreeSpeech.net. If you&amp;rsquo;re wanting to go a bit bigger or want a bit more hand-holding, choose DreamHost.&lt;/p&gt;
+
+&lt;p&gt;And if the downsides of both of those are too much, read &lt;a href=&#34;http://news.ycombinator.com/item?id=1005067&#34;&gt;this thread on Hacker News&lt;/a&gt; (although ignore the mentions of app hosts like Linode and Heroku) or &lt;a href=&#34;http://www.reddit.com/r/AskReddit/comments/85h4p/im_leaving_godaddy_what_web_host_do_you_recommend/&#34;&gt;this one on Reddit&lt;/a&gt; for other options.&lt;/p&gt;
+
+&lt;p&gt;_In Part 2, Next Week: Domain Names, Wordpress plugins and themes (and which ones you DON&amp;rsquo;T need, too), analytics, logos, designs and how to actually install all this stuff! _&lt;/p&gt;
+
+&lt;p&gt;**What I&amp;rsquo;d like you to do now: if you found this article useful, please click the retweet button below to share it with others. And let me know if you have any additional Website tips - or problems -  in the comments below! **&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
